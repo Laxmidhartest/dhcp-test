@@ -31,6 +31,8 @@
 
 struct client_config top_level_config;
 
+#define TESTCHANGE 1
+
 #define NUM_DEFAULT_REQUESTED_OPTS	9
 /* There can be 2 extra requested options for DHCPv4-over-DHCPv6. */
 struct option *default_requested_options[NUM_DEFAULT_REQUESTED_OPTS + 2 + 1];
